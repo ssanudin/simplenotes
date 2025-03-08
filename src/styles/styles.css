@@ -1,0 +1,70 @@
+:root,
+:host {
+  --bgcolor: #fff;
+  --bgmain: #eff2f3;
+  --fontcolor: #262936;
+  --bluenote: #6baed9;
+  --yellownote: #e5d987;
+  --rednote: #efabac;
+  --accentcolor: #b79d4e;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+  -webkit-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in iOS */
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  line-height: 1.5;
+  background-color: var(--bgcolor);
+  color: var(--fontcolor);
+}
+
+main {
+  background-color: var(--bgmain);
+  width: calc(100% - 1rem);
+  margin: 0 auto;
+  padding: 4rem 1rem;
+  border-radius: 1rem;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.add-note-container {
+  width: 100%;
+  max-width: 600px;
+  border: 2px solid var(--bgcolor);
+  border-radius: 1rem;
+  margin: 0 auto;
+  margin-bottom: 8rem;
+  padding: 1.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15), 0 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (min-width: 576px) {
+  main {
+    width: calc(100% - 5rem);
+    padding: 4rem 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    width: calc(100% - 8rem);
+    padding: 4rem;
+  }
+}
