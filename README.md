@@ -14,11 +14,11 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ssanudin/simplenotes.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd notes-app
+   cd simplenotes
    ```
 3. Open `index.html` in your browser to view the application.
 
@@ -26,6 +26,10 @@ To set up the project locally, follow these steps:
 
 - Add new notes using the provided form.
 - View and manage your notes in the main section of the app.
+
+## Preview
+
+![Preview](src/images/preview.png)
 
 ## License
 
